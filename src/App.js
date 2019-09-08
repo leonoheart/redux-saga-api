@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Button from './containers/Button'
-import NewsItem from './containers/NewsItem'
+import NewsList from './containers/NewsList'
 import Loading from  './containers/Loading'
 
 export default class App extends Component {
@@ -9,7 +9,7 @@ export default class App extends Component {
             <div>
                 <Button></Button>
                 <Loading></Loading>
-                <NewsItem></NewsItem>
+                <NewsList></NewsList>
             </div>
         )
     }

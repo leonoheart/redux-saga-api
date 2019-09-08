@@ -3,7 +3,7 @@ const reducer = (state = {}, action) => {
         case 'GET_NEWS':
             return {...state, loading: true}
         case 'NEWS_RECIEVED':
-            return {...state, news: action.json[0], loading: false}
+            return {...state, articles: action.articles, loading: false}
         default:
             return state
     }
